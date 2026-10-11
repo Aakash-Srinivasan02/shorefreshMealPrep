@@ -1,13 +1,11 @@
 :root {
-  --green-900: #111111;
-  --green-800: #1b1b1b;
-  --green-700: #2a2a2a;
-  --green-600: #3c3c3c;
-  --green-500: #d93030;
-  --green-100: #f9e9e9;
-  --green-50: #fff7f7;
-  --orange-500: #d93030;
-  --orange-400: #eb4d4d;
+  --brand-black: #111111;
+  --brand-black-2: #1b1b1b;
+  --brand-black-3: #2a2a2a;
+  --brand-red: #d93030;
+  --brand-red-2: #eb4d4d;
+  --brand-pink: #f9e9e9;
+  --brand-cream: #fff7f7;
   --charcoal: #111111;
   --muted: #5e5e5e;
   --white: #ffffff;
@@ -81,7 +79,7 @@ select {
   display: grid;
   place-items: center;
   border-radius: 14px;
-  background: linear-gradient(135deg, #1a1a1a, var(--green-500));
+  background: linear-gradient(135deg, var(--brand-black), var(--brand-red));
   color: var(--white);
   font-weight: 800;
   letter-spacing: 0.05em;
@@ -150,7 +148,7 @@ select {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #1a1a1a, var(--green-500));
+  background: linear-gradient(135deg, var(--brand-black), var(--brand-red));
   color: var(--white);
   box-shadow: 0 14px 28px rgba(217, 48, 48, 0.22);
 }
@@ -173,7 +171,7 @@ select {
   padding: 4.75rem 0 3rem;
   background:
     radial-gradient(circle at 15% 20%, rgba(217, 48, 48, 0.10), transparent 28%),
-    linear-gradient(180deg, #fff7f7 0%, #ffffff 100%);
+    linear-gradient(180deg, var(--brand-cream) 0%, #ffffff 100%);
 }
 
 .hero-grid {
@@ -189,7 +187,7 @@ select {
   font-size: 0.78rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--green-500);
+  color: var(--brand-red);
   font-weight: 800;
 }
 
@@ -451,8 +449,8 @@ select {
 }
 
 .featured-plan {
-  background: linear-gradient(180deg, #f5f6f3 0%, #ffffff 100%);
-  border-color: rgba(22, 22, 22, 0.14);
+  background: linear-gradient(180deg, #fff6f6 0%, #ffffff 100%);
+  border-color: rgba(217, 48, 48, 0.2);
   transform: translateY(-8px);
 }
 
@@ -502,7 +500,7 @@ select {
 }
 
 .process-section {
-  background: linear-gradient(180deg, #ffffff 0%, #fff7f7 100%);
+  background: linear-gradient(180deg, #ffffff 0%, var(--brand-cream) 100%);
 }
 
 .steps-grid {
