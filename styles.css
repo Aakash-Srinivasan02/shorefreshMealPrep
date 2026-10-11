@@ -1,17 +1,17 @@
 :root {
-  --green-900: #163a2f;
-  --green-800: #1b4d3b;
-  --green-700: #246653;
-  --green-600: #2c7d67;
-  --green-500: #3ca07e;
-  --green-100: #ecf8f3;
-  --green-50: #f6faf8;
-  --orange-500: #f59e4e;
-  --orange-400: #f7b768;
-  --charcoal: #1e2a2a;
-  --muted: #5f6d68;
+  --green-900: #111111;
+  --green-800: #1b1b1b;
+  --green-700: #2a2a2a;
+  --green-600: #3c3c3c;
+  --green-500: #d93030;
+  --green-100: #f9e9e9;
+  --green-50: #fff7f7;
+  --orange-500: #d93030;
+  --orange-400: #eb4d4d;
+  --charcoal: #111111;
+  --muted: #5e5e5e;
   --white: #ffffff;
-  --shadow: 0 18px 45px rgba(17, 47, 38, 0.12);
+  --shadow: 0 18px 45px rgba(17, 17, 17, 0.14);
   --radius: 24px;
 }
 
@@ -81,7 +81,7 @@ select {
   display: grid;
   place-items: center;
   border-radius: 14px;
-  background: linear-gradient(135deg, var(--green-600), var(--green-500));
+  background: linear-gradient(135deg, #1a1a1a, var(--green-500));
   color: var(--white);
   font-weight: 800;
   letter-spacing: 0.05em;
@@ -150,9 +150,9 @@ select {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--green-700), var(--green-500));
+  background: linear-gradient(135deg, #1a1a1a, var(--green-500));
   color: var(--white);
-  box-shadow: 0 14px 28px rgba(44, 125, 103, 0.25);
+  box-shadow: 0 14px 28px rgba(217, 48, 48, 0.22);
 }
 
 .btn-secondary {
@@ -172,8 +172,8 @@ select {
 .hero {
   padding: 4.75rem 0 3rem;
   background:
-    radial-gradient(circle at 15% 20%, rgba(60, 160, 126, 0.18), transparent 28%),
-    linear-gradient(180deg, #f7fbf9 0%, #ffffff 100%);
+    radial-gradient(circle at 15% 20%, rgba(217, 48, 48, 0.10), transparent 28%),
+    linear-gradient(180deg, #fff7f7 0%, #ffffff 100%);
 }
 
 .hero-grid {
@@ -189,7 +189,7 @@ select {
   font-size: 0.78rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--green-700);
+  color: var(--green-500);
   font-weight: 800;
 }
 
@@ -333,7 +333,7 @@ select {
 }
 
 .section-alt {
-  background: #f7faf9;
+  background: #fff6f6;
 }
 
 .section-header {
@@ -451,8 +451,8 @@ select {
 }
 
 .featured-plan {
-  background: linear-gradient(180deg, #f3faf7 0%, #ffffff 100%);
-  border-color: rgba(44, 125, 103, 0.24);
+  background: linear-gradient(180deg, #f5f6f3 0%, #ffffff 100%);
+  border-color: rgba(22, 22, 22, 0.14);
   transform: translateY(-8px);
 }
 
@@ -460,8 +460,8 @@ select {
   position: absolute;
   top: 1.1rem;
   right: 1.1rem;
-  background: var(--orange-500);
-  color: var(--white);
+  background: #ffe5e5;
+  color: #a41d1d;
   padding: 0.45rem 0.75rem;
   border-radius: 999px;
   font-size: 0.72rem;
@@ -502,7 +502,7 @@ select {
 }
 
 .process-section {
-  background: linear-gradient(180deg, #ffffff 0%, #f8fdfb 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fff7f7 100%);
 }
 
 .steps-grid {
